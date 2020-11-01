@@ -1,5 +1,6 @@
 class PostsController < ApplicationController
   def index
+    # ポストテーブル取得
     @posts = Post.all
   end
 
